@@ -1,0 +1,91 @@
+.App{
+    display: flex;
+    background-image: url(https://wallpapercave.com/dwp1x/wp2450670.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    flex-direction: column;
+    height: 110rem;
+    width: 100%;
+}
+
+.Card {
+    border: 2px solid rgb(3, 3, 3);
+    text-align: center;
+    width: 20rem;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 3rem;
+    background-color: rgba(91, 124, 124, 0.596);
+}
+.Card :hover{
+    background: rgba(91, 124, 124, 0.911);
+    cursor: pointer;
+}
+.imagen{
+    display: flex;
+    width: 100%;
+    border-radius: 20rem;
+    border: 0.2rem solid rgb(25, 11, 43);
+    align-items: center;
+    justify-content: center;
+}
+.posicioncard{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    position: relative;
+    top: 10rem;
+    width: 100rem;
+    left: 10rem;
+    gap: 2rem;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.boton{
+    width: 10%;
+    position: relative;
+    bottom: 94%;
+    left: 6.5%;
+    background-color: rgba(255, 0, 0, 0.507);
+}
+
+.SearchBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;    
+    height: 10vh;
+    gap: 1rem;
+}
+
+.barra{
+    position: relative;
+    right: 8rem;
+    border-radius: 0.8vh;
+    height: 4vh;
+    width: 30vh;
+    background-color: rgb(250, 235, 215);
+}
+
+.boton2{
+    position: relative;
+    right: 8rem;
+    border-radius: 0.8vh;
+    height: 4vh;
+    width: 9vh;
+    background-color: rgba(91, 124, 124, 0.438);
+    color: wheat;
+}
+.SearchBar :hover{
+    background-color: rgba(91, 124, 124, 0.897);
+    cursor: pointer;
+}
+
+
+
+
